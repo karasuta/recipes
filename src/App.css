@@ -61,3 +61,6 @@ li {
 h1,h2,ul,p{
   font-family: 'Open Sans', sans-serif;
 }
+body{
+  background-color: #6d9ba5;
+}
