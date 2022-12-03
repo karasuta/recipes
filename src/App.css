@@ -27,7 +27,16 @@ video{
   line-height: 18px;
   color: #575756;
   margin-left: 0px;
-  box-shadow: inset 0 0 0 4px #ddd6e8;
+  border: #575756;
+}
+::-webkit-input-placeholder { 
+  color:    #575756;
+}
+:-moz-placeholder { 
+  color:    #575756;
+}
+::-moz-placeholder { 
+  color:    #575756;
 }
 ul {
 
