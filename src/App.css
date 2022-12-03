@@ -27,7 +27,7 @@ video{
   line-height: 18px;
   color: #575756;
   margin-left: 0px;
-  border: #575756;
+  border: solid 2px #575756;
 }
 ::-webkit-input-placeholder { 
   color:    #575756;
