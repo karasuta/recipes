@@ -42,17 +42,19 @@ function App() {
           <button>
           <img src="https://img.icons8.com/fluency/48/00000/fry.png" className='icons' alt='search'/>
         </button>
-
         </form>
-      </div>
-      <div className='container'>
-       
       </div>
       <div>
       {myRecipes.map((element,index)=>(
         <MyRecipesComponent label={element.recipe.label} 
-        image={element.recipe.image} calories={element.recipe.calories} 
+        image={element.recipe.image} 
+        calories={element.recipe.calories} 
         ingredients={element.recipe.ingredientLines}
+        cuisineType={element.recipe.cuisineType}
+        mealType={element.recipe.mealType}
+        fat={element.recipe.totalNutrients.FAT.quantity}
+        protein={element.recipe.totalNutrients.PROCNT.quantity}
+        carbs={element.recipe.totalNutrients.CHOCDF.quantity}
         key={index}/>
       ))}
       </div>

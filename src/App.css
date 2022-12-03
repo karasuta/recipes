@@ -38,8 +38,14 @@ ul {
   text-shadow: 0 1px 0 rgba(255,255,255,.5);
 
 }
-
-li {
+.pict{
+  box-shadow:0 0 15px rgba(0,0,0,0.6);
+}
+span{
+  color:#6C4AB6;
+  font-weight:bolder;
+}
+.ingredient {
 
   display: block;
 
@@ -47,7 +53,11 @@ li {
 
   margin: .5em 0 .5em 2.5em;
 
-  background: #ddd6e8;
+  background: rgba(221,213,232,0.5);
+}
+
+.type{
+  background: rgba(221,213,232,0.3);
 
 }
 .icons{
@@ -64,3 +74,9 @@ h1,h2,ul,p{
 body{
   background-color: #6d9ba5;
 }
+@media all and  (max-width: 500px){
+  video{
+    height: auto;
+  }
+}
+  
