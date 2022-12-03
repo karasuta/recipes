@@ -21,12 +21,12 @@ function MyRecipesComponent({label,image,calories,ingredients,cuisineType,mealTy
 
             <ul className="list">
                 {ingredients.map((ingredient,index)=>(
-                    <li className="ingredient" key={index}><img src="https://img.icons8.com/external-filled-outline-perfect-kalash/512/external-Tick-basic-filled-outline-perfect-kalash.png" className="icons" alt="tick"/>{ingredient}></li>
+                    <li className="ingredient" key={index}><img src="https://img.icons8.com/external-filled-outline-perfect-kalash/512/external-Tick-basic-filled-outline-perfect-kalash.png" className="icons" alt="tick"/>{ingredient}</li>
                 ))}
             </ul>
 
             <div className="container">
-            <p className="par">{calories.toFixed()} kcal: protein - {protein.toFixed()}g/fat - {fat.toFixed()}g/carbs - {carbs.toFixed()}g</p>
+            <p className="par">{calories.toFixed()} kcal: protein - {protein.toFixed()}g; fat - {fat.toFixed()}g; carbs - {carbs.toFixed()}g</p>
 
             </div>
         </div>
